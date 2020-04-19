@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MathQuiz")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MathQuiz")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2020")]
+[assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8e62021f-07b0-4710-a0a3-dd7ea2c0b660")]
+[assembly: Guid("06a620b9-3a5f-498b-a737-70a3861ce189")]
 
 // Version information for an assembly consists of the following four values:
 //

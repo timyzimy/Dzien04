@@ -53,13 +53,13 @@ namespace MathQuiz
             {
                 lblTimer.ForeColor = Color.Yellow;
             }
-            if (timeLeft<15)
+            if (timeLeft < 15)
             {
                 lblTimer.ForeColor = Color.Red;
             }
 
 
-            if (timeLeft==0)
+            if (timeLeft == 0)
             {
                 timerQuiz.Enabled = false;
                 CheckAnswers();
@@ -73,7 +73,8 @@ namespace MathQuiz
                 setupQuiz();
                 timerQuiz.Enabled = true;
                 btnStart.Text = "STOP";
-            } else
+            }
+            else
             {
                 timerQuiz.Enabled = false;
                 CheckAnswers();
@@ -91,9 +92,14 @@ namespace MathQuiz
             }
         }
 
+        private void frmMain_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
         private Random random = new Random();
         private int RandomNumber(int min, int max)
-        {            
+        {
             return random.Next(min, max);
         }
 
@@ -105,7 +111,7 @@ namespace MathQuiz
             quiz4 = new Quiz(RandomNumber(-10, 10), RandomNumber(-10, 10), "/");
 
             lblQ1.Text = quiz1.ToString();
-            lblQ2.Text = quiz2.ToString(); 
+            lblQ2.Text = quiz2.ToString();
             lblQ3.Text = quiz3.ToString();
             lblQ4.Text = quiz4.ToString();
 
